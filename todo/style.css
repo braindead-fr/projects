@@ -1,0 +1,117 @@
+body {
+    background-image: url('background.jpg');
+    background-color: #00a8e8;
+    font-family: sans-serif; /* Choose a user-friendly font */
+    display: flex; /* Center content horizontally */
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Fill viewport height */
+    margin: 0; /* Remove default margins */
+    background-size: cover; /* Image covers the entire container */
+    background-repeat: no-repeat; /* Image does not repeat */
+    background-position: center; /* Image is centered */
+}
+
+#divv {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for visual depth */
+    padding: 20px;
+    width: 350px; /* Adjust width as needed */
+}
+
+#work {
+    margin-top: 10px;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid #007bff; /* Blue outline when focused */
+  }
+  
+input#addbutton[type="button"] {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button#addbutton[type="button"]:hover {
+    background-color: #0062cc; /* Darker blue on hover */
+}
+  
+p {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+p:not(:last-child) { /* Add a subtle divider between items */
+    border-bottom: 1px solid #000000;
+}
+
+button#deletebutton {  /* Target by id */
+    background-color: #e84118; /* Red for delete action */
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button#deletebutton:hover{
+    background-color: #ba3716; /* Red for delete action */
+}
+  
+p:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+    cursor: pointer; /* Indicate clickable element */
+}
+
+input[type="text"] {
+    /* Existing styles... */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+button#editbutton {  /* Target by id */
+    background-color: #28a745; /* Green for completion */
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+  
+button#editbutton:hover {  /* Hover effect */
+    background-color: #218c3f; /* Darker green on hover */
+}
+
+button#donebutton{
+    background-color: #28a745; /* Green for completion */
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+button#donebutton:hover {  /* Hover effect */
+    background-color: #218c3f; /* Darker green on hover */
+}

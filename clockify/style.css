@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+}
+
+#safeTimer {
+    width: 88%;
+    height: 30px;
+    margin: 20px auto; /* Added margin and removed centering */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AEAEAE;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#safeTimer input[type="text"],
+#safeTimer input[type="button"],
+#safeTimer p {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+#safeTimer input[type="button"] {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+
+#safeTimer input[type="button"]:hover {
+    background-color: #074485;
+    transition: 0.9s;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.storagediv{
+    width: 83%;
+    height: 30px;
+    margin: 20px auto; /* Added margin and removed centering */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #979797;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.storagework, .storageworking{
+    padding: 5px;
+    border: 1px solid #fffcfc;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.storagetime{
+    padding: 3px;
+    border: 1px solid #fffcfc;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.storagedelete{
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #e80808;
+    color: #fff;
+    border: none;
+}
+
+.storagedelete:hover {
+    background-color: #991010;
+    transition: 0.9s;
+}
